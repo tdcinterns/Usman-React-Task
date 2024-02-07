@@ -1,0 +1,102 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* background: linear-gradient(135deg, #4203a9, #90bafc); */
+    /* background: linear-gradient(135deg, #153677, #4e085f); */
+    background-color: #002339;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.heading {
+    color:red;
+    font-weight: 800;
+    text-align: center;
+    font-size: 38px;
+    letter-spacing: 3px;
+}
+.formHead {
+    margin-left: 12px;
+    margin-left:50px;
+}
+.add-contact {
+    font-size: 2.7rem;
+    font-weight: 700;
+    margin-left: 12px;
+    color: wheat;
+}
+.inputName {
+    display: flex;
+    justify-content: start;
+    gap: 50px;
+}
+.inputEmail {
+    display: flex;
+    justify-content: start;
+    gap: 46px;
+}
+label {
+    color: white;
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+.name {
+    font-size: 20px;
+    padding: 12px 25px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    box-shadow: 3px 3px 5px black;
+}
+.email {
+    font-size: 20px;
+    padding: 12px 25px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    box-shadow: 3px 3px 5px black;
+}
+.email:hover,.name:hover,.btn:hover {
+    transition: 0.3s;
+}
+.btn {
+    width: 200px;
+    padding: 10px 20px;
+    border: 1px solid wheat;
+    outline: none;
+    cursor: pointer;
+    margin-left: 30px;
+    margin-top: 30px;
+    font-size: 1.5rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+    border-radius: 5px;
+    background-color: #044269;
+    color: wheat;
+    box-shadow: 3px 3px 5px black;
+}
+.btn:hover {
+    background-color: #002339;
+    color: white;
+    border: 1px solid white;
+}
+.addedContacts {
+    margin-top: 20px;
+    width: 600px;
+    padding: 0px 20px;
+    color: red;
+    border: 1px solid black;
+    border-radius: 10px;
+    font-size: 22px;
+    box-shadow: 3px 3px 5px black;
+    background-color: #fff;
+}
+.addedContacts h2 {
+    font-size: 2.2rem;
+    font-weight: 700;
+}
+.addedContacts li {
+    padding: 1px;
+    color: black;
+    font-size: 22px;
+    font-weight: 500;
+}
