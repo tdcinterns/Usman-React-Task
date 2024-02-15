@@ -1,13 +1,10 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import './index.css'
-import Header from "./Components/Header";
-import AddContacts from "./Components/AddContacts";
-
+import App from "./REACT-TASK-2/REACT-FETCHING-TASK";
 ReactDOM.render (
   <>
-    <Header />
-    <AddContacts />
+    <App />
   </>,
-  document.getElementById("form")
-)
+  document.getElementById("Table")
+);
